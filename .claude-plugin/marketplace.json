@@ -1,0 +1,15 @@
+{
+    "name": "content-repurposer-lite-marketplace",
+    "owner": {
+          "name": "Content Repurposer"
+    },
+    "description": "Local marketplace for installing the free Content Repurposer Lite plugin in Claude Code.",
+    "plugins": [
+          {
+                  "name": "content-repurposer-lite",
+                  "source": "./",
+                  "description": "Free preview: turns one long piece of content into 3 ready-to-publish short-form pieces.",
+                  "version": "1.0.0"
+          }
+    ]
+}
